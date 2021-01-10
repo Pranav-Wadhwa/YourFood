@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target 'RestaurantApp' do
+  pod 'GooglePlaces'
+  pod 'Alamofire', '~> 5.0'
+  pod 'SwiftyJSON'
+  pod 'LocationPickerViewController'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Database'
+#  pod 'FBSDKCoreKit'
+#  pod 'FBSDKPlacesKit'
+#  pod 'CDYelpFusionKit'
+#  pod 'Pilgrim', '~> 2.2.1'
+end
