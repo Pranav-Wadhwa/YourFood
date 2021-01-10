@@ -35,11 +35,8 @@ struct Recommendation: Identifiable {
                 return
             }
             
-            print(ref.key ?? "no key")
-            
             AF.request("https://pranavwadhwa.pythonanywhere.com/", parameters: ["dataid":ref.key]).responseJSON { response in
-                print("RESPONSE")
-                print(response)
+                
                 guard let data = response.value as? Dictionary<String, Any> else {
                     print("No python anywhere response")
                     completion(results, "Unable to retrieve recommendations")

@@ -12,12 +12,7 @@ import Combine
 struct HomeView: View {
     
     @State private var currentTab = 0
-    @State var favRestauarants: [ZRestaurant] = [
-        ZRestaurant(id: "SVWEQ23", name: "El Vaquero West", cuisines: ["Mexican", "Bar"], reviews: "very good quesadillas", address: "14910 Washington St, Haymarket, VA 20169", priceRange: 3),
-        ZRestaurant(id: "ASWEQ23", name: "El Vaquero West", cuisines: ["Mexican", "Bar"], reviews: "very good quesadillas", address: "14910 Washington St, Haymarket, VA 20169", priceRange: 3),
-        ZRestaurant(id: "DPOEQ23", name: "El Vaquero West", cuisines: ["Mexican", "Bar"], reviews: "very good quesadillas", address: "14910 Washington St, Haymarket, VA 20169", priceRange: 3),
-        ZRestaurant(id: "SVW89SD", name: "El Vaquero West", cuisines: ["Mexican", "Bar"], reviews: "very good quesadillas", address: "14910 Washington St, Haymarket, VA 20169", priceRange: 3),
-    ]
+    
     private var navTitle: String {
         get {
             switch currentTab {

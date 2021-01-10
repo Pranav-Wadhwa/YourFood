@@ -53,7 +53,6 @@
 		BFCA5AE423F595610041B4DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC475D023D9E2A200B4B05C /* Preview Assets.xcassets */; };
 		BFE8029924524F70009EF0D0 /* RecDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE8029824524F70009EF0D0 /* RecDisplayView.swift */; };
 		BFE8029B2452545D009EF0D0 /* RecCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE8029A2452545D009EF0D0 /* RecCell.swift */; };
-		BFE8029D24525577009EF0D0 /* RecDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE8029C24525577009EF0D0 /* RecDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,7 +126,6 @@
 		BFC5AB4624059F2A003EB2E9 /* ZRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRestaurant.swift; sourceTree = "<group>"; };
 		BFE8029824524F70009EF0D0 /* RecDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecDisplayView.swift; sourceTree = "<group>"; };
 		BFE8029A2452545D009EF0D0 /* RecCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecCell.swift; sourceTree = "<group>"; };
-		BFE8029C24525577009EF0D0 /* RecDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecDetailView.swift; sourceTree = "<group>"; };
 		D3E618BA15DA8A120B09401C /* libPods-RestaurantApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RestaurantApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -202,7 +200,6 @@
 				BFA4C4E623EC5563003B18E2 /* AddFavView.swift */,
 				BF15306223E326FE007F110D /* RecommendationsView.swift */,
 				BFE8029824524F70009EF0D0 /* RecDisplayView.swift */,
-				BFE8029C24525577009EF0D0 /* RecDetailView.swift */,
 				BF15306423E32707007F110D /* AboutView.swift */,
 				BF15306623E32774007F110D /* TabBar.swift */,
 			);
@@ -519,7 +516,6 @@
 				BFC4761F23DA1B6D00B4B05C /* PageViewController.swift in Sources */,
 				BFC475C723D9E2A100B4B05C /* SceneDelegate.swift in Sources */,
 				BF15306523E32707007F110D /* AboutView.swift in Sources */,
-				BFE8029D24525577009EF0D0 /* RecDetailView.swift in Sources */,
 				BF15305F23E31968007F110D /* HomeView.swift in Sources */,
 				BF15306123E324B7007F110D /* FavoritesView.swift in Sources */,
 				BFC475CC23D9E2A100B4B05C /* OnboardingView.swift in Sources */,

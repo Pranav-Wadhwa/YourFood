@@ -58,10 +58,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate, CLLocationManagerDelega
 
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-         //.environment(\.managedObjectContext, context)
-        
-//        UserDefaults.standard.set(false, forKey: "hasOnboarded")
-        
+                
         let hasOnboarded = UserDefaults.standard.hasOnboarded
 
         // Use a UIHostingController as window root view controller.
@@ -80,12 +77,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate, CLLocationManagerDelega
             if !hasOnboarded {
                 initOnboardObserver()
             }
-            
-//            let locationManager = CLLocationManager()
-//            locationManager.delegate = self
-//            locationManager.requestLocation()
-            
-            
 
         }
     }

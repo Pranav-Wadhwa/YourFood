@@ -45,7 +45,6 @@ struct AddFavView: View {
                 return 0
             }
             return UIApplication.shared.windows[0].safeAreaInsets.bottom
-//            return UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
         }
     }
     @ObservedObject var locationManager = LocationManager()
@@ -69,9 +68,7 @@ struct AddFavView: View {
                     .padding(8)
                     .background(Color.white)
                     .font(Font.custom("Lato-regular", size: 16))
-                    
-//                TextInput(text: $nameText, placeholder: "Name")
-                
+                                    
                 Rectangle()
                     .fill(Color.clear)
                     .frame(width: 1, height: 32)
@@ -149,18 +146,7 @@ struct AddFavView: View {
                         } else {
                             print("failed to delete")
                         }
-//                        let request2 = FetchRequest<NSFetchRequestResult>(
-//                            entity: FavRestaurant.entity(),
-//                            sortDescriptors: [NSSortDescriptor(keyPath: \FavRestaurant.name, ascending: false)], predicate:
-//                            NSPredicate(format: "id==\(result.res.id)")
-//                        )
                         
-//                        for r in results {
-//                            self.context.delete(r)
-//
-//                        }
-                        
-//
                     }
                     
                 }) {
@@ -224,23 +210,7 @@ struct AddFavView: View {
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
         .background(Color("Charcoal").edgesIgnoringSafeArea(.all))
         .edgesIgnoringSafeArea(.bottom)
-//        .padding(.bottom, keyboardObserver.currentHeight)
         .navigationBarTitle("Add Your Favorite Restaurant")
-    }
-    
-    func updateSearchResults() {
-//        for result in searchResults {
-//            var alreadyFav = false
-//
-//            for res in self.favRestaurants {
-//                if res.id == result.id {
-//                    alreadyFav = true
-//                    break
-//                }
-//            }
-//
-//            self.searchResults.append(FavSearchResult(id: result.id, res: result, alreadyFavorite: alreadyFav))
-//        }
     }
     
     func showAlert(title: String, message: String) {
