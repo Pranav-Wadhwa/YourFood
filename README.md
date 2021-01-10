@@ -29,3 +29,12 @@ The final part of the machine learning involves comparing the reviews using a co
 ##### See /ios/RestaurantApp/RestaurantApp.xcworkspace
 
 The SwiftUI-based iOS app is used to allow users to pick their favorite restaurants in the past and select the parameters of their search. The app uses the Zomato API, Alamofire, and SwiftyJSON to pull information about restaurants and their reviews (`/Models/ZRestaurants.swift`). It uses the same libraries to make requests to the PythonAnywhere server as well as Firebase to upload data to the server. In addition, the user's favorite restaurants are stored locally using Core Data (`/Views/AddFavView.swift`). Finally, the results are displayed using SwiftUI Lists in `/Views/RecDisplayView.swift`.
+
+
+<img src="https://pranavwadhwa.com/assets/your_food/Illustration%206.png" height="400px" />
+
+##### Selecting restaurants you've liked in the past
+
+<img src="https://pranavwadhwa.com/assets/your_food/Illustration%205.png" height="400px" />
+
+##### Receiving personalized recommendations from YourFood
