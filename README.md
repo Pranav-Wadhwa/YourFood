@@ -6,7 +6,9 @@
 
 I created YourFood for my senior research project at Thomas Jefferson HSST. After seeing the power of machine learning recommendation engines, I aspired to create my own recommendation system for restaurants. YourFood consists of a backend server that creates the recommendations and an iOS companion app that interacts with the user. It works by asking users of restaurants they've enjoyed eating at in the past, pulling reviews for those restaurants as well as local restaurants, and comparing these reviews to predict which of the local restaurants the user might like.
 
-![YourFood preview](https://pranavwadhwa.com/assets/screenshots/yourfood.png)
+<div align="center">
+  <img src="https://pranavwadhwa.com/img/yourfood.43457464.png" width="700px;"/>
+</div>
 
 ### ML-Powered Server
 
@@ -29,18 +31,3 @@ The final part of the machine learning involves comparing the reviews using a co
 ##### See /ios/RestaurantApp/RestaurantApp.xcworkspace
 
 The SwiftUI-based iOS app is used to allow users to pick their favorite restaurants in the past and select the parameters of their search. The app uses the Zomato API, Alamofire, and SwiftyJSON to pull information about restaurants and their reviews (`/Models/ZRestaurants.swift`). It uses the same libraries to make requests to the PythonAnywhere server as well as Firebase to upload data to the server. In addition, the user's favorite restaurants are stored locally using Core Data (`/Views/AddFavView.swift`). Finally, the results are displayed using SwiftUI Lists in `/Views/RecDisplayView.swift`.
-
-
-<p align="center" width="100%">
-  <img src="https://pranavwadhwa.com/assets/your_food/Illustration%206.png" height="400px" />
-  <br>
-  Selecting restaurants you've liked in the past
-</p>
-
-<br>
-
-<p align="center" width="100%">
-  <img src="https://pranavwadhwa.com/assets/your_food/Illustration%205.png" height="400px" />
-  <br>
-  Receiving personalized recommendations from YourFood
-</p>
